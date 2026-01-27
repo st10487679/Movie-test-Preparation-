@@ -44,6 +44,7 @@ public class MoviesPrep {
                
       //printing tha Array
         System.out.println(" MOVIE TICKET SALES REPORT ");
+        System.out.println("******************************************************");
         
         System.out.println("\t" + months[0] +"\t" + months[1] +"\t" + months[2]);   // to print the 1st row ( months)
       
@@ -55,15 +56,12 @@ public class MoviesPrep {
                 
             }
             System.out.println(""); //to print the second movie 
+            
         }
         
-        
-        
-        
-                 
-                 
-                
-            }
-        }
+    }
+    
+    
+}
     
 
