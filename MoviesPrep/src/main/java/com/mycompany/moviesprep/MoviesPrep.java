@@ -58,7 +58,7 @@ public class MoviesPrep {
             System.out.println(""); //to print the second movie 
             
         }
-        // to print 
+        // to total the rows and colmns
         for (int i = 0; i < movieInput.length; i++) {
             
            int total = 0;
