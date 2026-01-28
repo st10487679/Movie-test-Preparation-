@@ -58,7 +58,28 @@ public class MoviesPrep {
             System.out.println(""); //to print the second movie 
             
         }
+        // to print 
+        for (int i = 0; i < movieInput.length; i++) {
+            
+           int total = 0;
+           
+            for (int j = 0; j < movieInput[i].length ; j++) {
+                
+                total = total + movieInput[i][j];
+            }
+            System.out.println("THE TOTAL MOVIE TICKET SALES FOR "+ name[i] + " + "+ total);
+        }
         
+        for (int i = 0; i <months.length; i++) {
+            int total2 = 0;
+            
+            for (int j = 0; j < name.length; j++) {
+                total2 = total2 + movieInput[j][i];
+                
+            }
+             System.out.println("THE TOTAL MOVIE TICKET SALES FOR "+ months[i] + " = "+ total2);
+        }
+ 
     }
     
     
